@@ -1,0 +1,79 @@
+.carousel {
+    width: 300px;
+    height: 500px;
+}
+
+.flickity-viewport {
+    position: relative;
+    height: 500px;
+    top: 0;
+}
+
+.flickity-page-dots {
+    bottom: -2.5rem;
+}
+
+.flickity-viewport .flickity-slider .info {
+    margin-left: 1em;
+    display: flex;
+    width: 13rem;
+    flex-direction: column;
+    word-wrap: break-word;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    visibility: hidden;
+}
+
+.flickity-viewport .flickity-slider div.is-selected > .info {
+    visibility: visible;
+}
+
+.flickity-viewport .flickity-slider .info .title {
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #E94057;
+}
+
+.flickity-viewport .flickity-slider .info .description {
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #323755;
+    margin-top: 1rem;
+}
+
+.flickity-page-dots .dot.is-selected {
+    background: var(--color-pink);
+    box-shadow: 0px 15px 15px rgba(233, 64, 87, 0.2);
+    opacity: 1;
+}
+
+.container .btn-create-account {
+    position: relative;
+    top: 4.5rem;
+}
+
+.container span.btn-sign-in {
+    position: relative;
+    top: 6rem;
+
+    font-family: 'Sk-Modernist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+
+    cursor: pointer;
+}

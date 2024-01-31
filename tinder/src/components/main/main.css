@@ -1,0 +1,122 @@
+.main.container .header {
+  position: relative;
+
+  width: 100%;
+  height: 5%;
+
+  top: 0;
+}
+
+.main.container .content {
+  position: relative;
+
+  width: 100%;
+  height: 88%;
+
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.main.container .content .details {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+.main.container .header .btn-filter {
+  position: absolute;
+  right: 0;
+
+  border: none;
+  background: none;
+
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.main.container .header .btn-back {
+  position: absolute;
+  left: 0;
+
+  border: none;
+  background: none;
+
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.main.container .header .title {
+  margin-left: 0rem;
+  margin-top: -0.75rem;
+
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 150%;
+
+  text-align: center;
+}
+
+.main.container .header .description {
+  margin-left: 4rem;
+  margin-top: 0.1rem;
+
+  width: 75%;
+
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  text-align: justify;
+}
+
+.main.container .content .details .info {
+  position: relative;
+  top: 0rem;
+
+  width: 100%;
+  height: 50%;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main.container .content .details .info .field {
+  width: 50%;
+}
+
+.main.container .content .details .info .field:not(:first-child) {
+  margin-top: 1rem;
+}
+
+.main.container .content .details .submit {
+  position: relative;
+}
+
+.main.container .footer {
+  position: relative;
+  bottom: 0rem;
+
+  width: 100%;
+  height: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #f3f3f3;
+}

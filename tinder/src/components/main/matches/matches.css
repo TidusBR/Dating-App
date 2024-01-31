@@ -1,0 +1,51 @@
+.matches.content .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matches.content .details .show-matches {
+  margin-top: 5rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 10fr);
+  gap: 0.5em;
+  grid-auto-rows: 14rem;
+  justify-content: center;
+
+  width: 100%;
+  height: 88%;
+
+  overflow-y: auto;
+}
+
+.matches.content .details .show-matches .match-info .minfo {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 1rem;
+
+  width: 100%;
+  margin-top: -4rem;
+}
+
+.matches.content .details .show-matches .match-info .minfo .name {
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.matches.content .details .show-matches .match-info .minfo .mbuttons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}

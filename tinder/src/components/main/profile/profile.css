@@ -1,0 +1,69 @@
+.profileData.content .details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileData.content .details .profile {
+  position: absolute;
+  top: 3rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 60%;
+  height: 65%;
+}
+
+.profileData.content .details .profile .information {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: left;
+
+  padding-left: 1rem;
+
+  background-color: rgba(0, 0, 0, 0.479);
+  width: 100%;
+  height: 15%;
+
+  bottom: 2.3rem;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.profileData.content .details .profile .information .name {
+  font-family: 'Sk-Modernist';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.profileData.content .details .profile .field {
+  margin-top: 0.8rem;
+}
+
+.profileData.content .details .interests {
+  position: absolute;
+  bottom: 2rem;
+  width: 23.5rem;
+  height: 10rem;
+
+  overflow: auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 0.5em;
+  grid-auto-rows: 3rem;
+}
+
+.profileData.content .details .interests .btn-interests {
+  width: 175px;
+  pointer-events: none;
+}

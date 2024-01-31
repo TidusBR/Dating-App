@@ -1,0 +1,13 @@
+.interests-ui.content .details .info .button-group {
+  width: auto;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 0.5em;
+  grid-auto-rows: 3rem;
+}
+
+.interests-ui.content .details .info .btn-primary {
+  width: 180px;
+}
