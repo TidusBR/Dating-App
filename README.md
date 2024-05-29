@@ -22,4 +22,4 @@ Se precisar gerar uma distribuição para usar o front como página estática:
 	npm run build
 
 # Observações
-Futuralmente talvez seja feito o sistema de mensagens, e devo arrumar a responvividade para algumas telas.
+Futuramente talvez seja feito o sistema de mensagens, e devo arrumar a responvividade para algumas telas.
